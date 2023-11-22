@@ -28,7 +28,7 @@ if($recup){
         <tr>
             
             <td><?php echo $affiches['text'];   ?></td>
-            <td><a href="">modifier</a></td>
+            <td><a href="modifier.php?id=<?php echo $affiches['id']; ?>">modifier</a></td>
             <td><a href="supprimer.php?id=<?php echo $affiches['id'];  ?>">supprimer</a></td>
         </tr>
         <?php endforeach;  ?>
