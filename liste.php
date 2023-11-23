@@ -16,12 +16,14 @@ if($recup){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/liste.css">
 </head>
 <body>
+    <a href="index.php">ACCUEIL</a>
     <table>
         <tr>
             <th>titre</th>
-            <th>Actions</th>
+            <th colspan="2">Actions</th>
             
         </tr>
         <?php foreach($affiche as $affiches):  ?>

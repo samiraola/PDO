@@ -23,13 +23,14 @@ if(!$requet){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <a href="liste.php">les listes</a>
     <a href="index.php">Accueil</a>
     <form action="" method="post">
-        <input type="text" name="text" id="text"><br>
-        <input type="submit" value="connexion"><br>
+        <input type="text" name="text" id="text" placeholder="entrer du texte" required><br>
+        <input type="submit" value="Envoyer"><br>
     </form>
 </body>
 </html>

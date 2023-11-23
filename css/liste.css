@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(198, 154, 236);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+table td a{
+    padding : 10px;
+    background: red;
+    border : none;
+    cursor : pointer;
+    border-radius : 5px 10px;
+    text-align : center;
+    color: white;
+    text-decoration: none;
+} 
