@@ -32,6 +32,7 @@ if(!empty($_GET['id'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modification</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 <a href="liste.php">les listes</a>
@@ -39,7 +40,7 @@ if(!empty($_GET['id'])){
     <?php foreach($resultat as $value):  ?>
     <form action="" method="post">
         <input type="text" name="text" id="text" value="<?php echo $value['text']; ?>"><br>
-        <input type="submit" value="connexion"><br>
+        <input type="submit" value="modifier"><br>
     </form>
     <?php endforeach;   ?>
 </body>
